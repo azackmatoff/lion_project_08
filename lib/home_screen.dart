@@ -4,6 +4,13 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+/// CRUD
+/// C - Create
+/// R - Read
+/// U - Update
+/// D - Delete
+/// API
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
