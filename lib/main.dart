@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 import 'package:lion_project_08/presentation/flutter_bloc/bloc/bloc/home_screen_bloc.dart';
-import 'package:lion_project_08/presentation/flutter_bloc/bloc/bloc/ui/screens/bloc_home_screen.dart';
+import 'package:lion_project_08/presentation/flutter_bloc/bloc/ui/screens/bloc_home_screen.dart';
 import 'package:lion_project_08/presentation/flutter_bloc/cubit/cubit/home_screen_cubit.dart';
 import 'package:lion_project_08/presentation/flutter_bloc/cubit/ui/screens/cubit_home_screen.dart';
 import 'package:lion_project_08/presentation/flutter_way/ui/screens/home_screen.dart';
