@@ -8,4 +8,12 @@ class ClientCurrency {
     required this.selectedCurrency,
     this.error,
   });
+
+  static ClientCurrency empty() {
+    return ClientCurrency(
+      currentRate: 0,
+      selectedCurrency: 'USD',
+      error: null,
+    );
+  }
 }

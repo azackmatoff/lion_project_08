@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:lion_project_08/data/sources/api_source/api_sources.dart';
 import 'package:lion_project_08/domain/models/client_currency.dart';
 
@@ -10,6 +12,7 @@ class SourcesRepositories {
   Future<ClientCurrency> getBtcToCurrencyPrice(String currency) async {
     final serverClient = await _apiSources.getBtcToCurrencyPrice(currency);
 
+    log('getBtcToCurrencyPrice.serverClient: ${serverClient.assetIdQuote} ');
     return ClientCurrency(
       currentRate: serverClient.rate,
       selectedCurrency: currency,
